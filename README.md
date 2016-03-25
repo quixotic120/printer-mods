@@ -15,6 +15,7 @@ electronics - making my own! see ramps-fd3 branch
 **Other mods I've done that are either basic or covered better elsewhere:**
 
 Auto bed level - I basically followed [Zennmasters guide](http://zennmaster.com/random-things/auto-bed-leveling-for-the-makerfarm-prusa-i3-part-1-assembly-and-basic-setup). His STLs won’t work; I dont have an STL for my servo mount; I used colin's STL for the laser cut wood bit under the extruder along with the servo mount from [here](http://www.thingiverse.com/thing:735410/) . I didn't edit them, I just lay them on top of each other in my slicer until it looked right. Not the most reliable method but it worked well and was easy! the z-arm from that will be way too short though - there's a longer one on thingiverse but I found it too long. it's a fairly simple mesh so I had no problem turning it into a solid with 123D and stretching it to my preference but I accidentally deleted the STL after I printed. sorry! My z-arm about 58mm long - I would say you need a minimum of 52mm for this machine and that would be cutting it very close.
+edit: trialing the differential IR endstop by dc42 - making my own, see sensorboard branch for kicad files
 
 Lighting - not worth posting; literally just wired a few white LEDs to a switch and tapped the power supply, added a small perf board for constant 12V connection which I use for the lighting and the extruder fans. 
 
