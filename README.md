@@ -35,6 +35,7 @@ soldered it back and it works with an okay picture and very bright lighting. the
 
 Z axis screws: threaded rods are kind of crappy. inconsistent, loud, dirty, and not very straight. In the meantime I’ve printed [this z bracket](http://www.thingiverse.com/thing:769057). It’s not amazing but I prefer it to the makerfarm mount where the nut kept working itself out and messing up the extruder offsets.
 I’m researching acme/lead screws and trying to determine if the cheap Chinese sets are worth the 30-50 bucks.
+edit: [i got these](http://www.qtecstore.com/pages/leadscrew_nuts/8mm_leadscrew_nuts/8mm_395_leadscrew_nut2/page.html) coupled with [these](http://www.amazon.com/uxcell-5mmx8mm-Helical-Coupler-Coupling/dp/B00KHTVOEU?ie=UTF8&psc=1&redirect=true&ref_=od_aui_detailpages07) and using [these](http://www.amazon.com/uxcell®-Inner-Linear-Shaft-Support/dp/B00AUBG3PA?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00) as supports. Shipping took awhile but product quality was very good and within tolerable specs - easily sufficient for 3d printing. Certainly are better options but you'll spend quite a bit more for improvement that is, in my opinion, unneccessary for this application
 
 
 
