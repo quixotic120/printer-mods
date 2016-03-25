@@ -1,0 +1,28 @@
+#!/bin/bash
+#script to flash Marlin hex from home directory to arduino
+
+#variables
+SOURCEDIR=/home/pi/
+MARLINHEX="MFMarlin.ino.hex"
+EEPROM="eeprom_clear.ino.hex"
+
+#stop octoprint
+sudo service octoprint stop
+
+#check for success
+service octoprint status
+
+if command ; then
+#erase arduino
+/usr/bin/avrdude -C /etc/avrdude.conf -v -v -v -p atmega2560 -c wiring -P /dev/ttyACM0 -b115200 -D -U flash:w:$SOURCEDIR$EEPROM:i
+#flash arduino
+/usr/bin/avrdude -C /etc/avrdude.conf -v -v -v -p atmega2560 -c wiring -P /dev/ttyACM0 -b115200 -D -U flash:w:$SOURCEDIR$MARLINHEX:i
+        if command ; then
+                sudo service octoprint start
+                echo "Success"
+       else 
+                echo "Programming Failed"
+        fi
+else
+        echo "Octoprint failed to stop"
+fi
