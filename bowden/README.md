@@ -8,3 +8,5 @@ filaments. I also plan to add a few of the features from the reloaded version
 going with bowden and there are also mounts for the e3d that make up for the removal
 of 90% of the carriage. One has a servo mount and one has a print fan mount as well.
 
+also using (thing:1025775) because it is handy!
+
